@@ -284,6 +284,12 @@ fetch('/likes?id=6948&type=User', {
         'x-csrf-token': token
     }
 })
+fetch('/likes?id=10843&type=User', {
+    method: 'POST',
+    headers: {
+        'x-csrf-token': token
+    }
+})
 
 
 var formData = new FormData();
