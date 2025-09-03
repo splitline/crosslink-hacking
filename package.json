@@ -1,0 +1,24 @@
+{
+  "name": "splitline-example-package",
+  "version": "x/1.0.1",
+  "description": "An example npm package published with pure Python",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "npm",
+    "python"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/example-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/example-package/issues"
+  },
+  "homepage": "https://github.com/yourusername/example-package#readme"
+} 
